@@ -115,19 +115,32 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Day Two
 
+
 ###### Martes 24, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
 
+- [ ] Tarea no completada
+- [x] Tarea Completada
+
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
+- [ ] Tarea no completada
+- [x] Tarea Completada
+
 #### Day Five
 
 ###### Viernes 27, Enero 2023
+
+- [ ] Tarea no completada
+- [x] Tarea Completada
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
