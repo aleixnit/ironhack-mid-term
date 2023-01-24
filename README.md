@@ -27,7 +27,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 <div align="center">
   <img src="./resources/images/readMe/wu.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
-  <a href="https://midterm-project.vercel.app/">Visit Website</a>
+  <a href="https://ironhack-mid-term-2l1diajqx-aleixnit.vercel.app/">Visit Website</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -104,20 +104,20 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Day One
 
-#### Day One
-
 ###### Lunes 23, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [ ] Modificar y estructurar el Readme poco a poco.
+- [ ] Segmentar las secciones de cada página html
+- [ ] Planificar día unas tareas en función del orden y el tiempo de ejecución
+- [ ] Empezar a codificar INDEX PAGE, PROJECT PAGE y CONTACT US PAGE.
+
 
 #### Day Two
 
 
 ###### Martes 24, Enero 2023
 
+- [ ] Realizar el CSS en las páginas HTML.
 - [ ] Tarea no completada
 - [x] Tarea Completada
 
@@ -159,7 +159,7 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Aleix Aguilar Casas - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
@@ -169,7 +169,7 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 <!-- ACKNOWLEDGMENTS -->
 
-## agradecimientos
+## Agradecimientos
 
 La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
 
