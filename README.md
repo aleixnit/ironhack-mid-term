@@ -27,7 +27,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 <div align="center">
   <img src="./resources/images/readMe/wu.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
-  <a href="https://ironhack-mid-term-2l1diajqx-aleixnit.vercel.app/">Visit Website</a>
+  <a href="https://ironhack-mid-term.vercel.app/">Visit Website</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
