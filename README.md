@@ -117,9 +117,12 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Martes 24, Enero 2023
 
-- [ ] Realizar el CSS en las páginas HTML.
-- [ ] Tarea no completada
-- [x] Tarea Completada
+- Objetivo del día: Empezar el esqueleto del índex.html y empezar/terminar el CSS. Voy a centrarme en la página de index antes de abordar cualquier otra, haciendo el HTML y estilando con CSS para dejar la index prácticamente 100% terminada y luego, montar las otras páginas.
+
+- [ ] 9.00h AM: Ningún objetivo del lunes cumplido, empezamos de 0, revisando lo que se espera del midterm y los conceptos que hemos de trabajar. Organizo el trabajo a realizar con un boceto a mano de los pasos a seguir. Coffee time y manos a la obra!
+- [ ] 11.30h AM: Empiezo el esqueleto de la estructura y textos del index.html (unos 30min)
+- [ ] 12.13h AM: Añado links vacíos e imágenes en el index.html
+- [ ] 13.15h AM: Termino la estructura del body del html. Con links vacíos e imágenes.
 
 #### Day Three
 
@@ -158,6 +161,7 @@ En esta sección se puede incluir información como:
 - Otra información relevante que el desarrollador o equipo desee compartir.
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
+<!-- MI SECCIÓN DE ACERCA DE MI, BORRAR LO D ARRIBA ALFINAL-->
 
 Aleix Aguilar Casas - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
@@ -180,6 +184,8 @@ En esta sección se puede incluir información como:
 - Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
 
 En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
+<!-- MI SECCIÓN DE AGRADECIMIENTOS, BORRAR LO D ARRIBA ALFINAL-->
+1. Agradecimiento especial a Diego Zito, Jarko y Aleix Abulí.
 
 - [Icon Libraries](insert-link-here)
 - [Google Font Libraries](insert-link-here)
@@ -198,6 +204,9 @@ En esta sección se puede incluir información como:
 - Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
 
 En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+<!-- MI SECCIÓN DE DESAFÍOS TÉCNICOS, BORRAR LO D ARRIBA ALFINAL-->
+1. Primer desafío: hacer el proyecto con solo una pantalla de 15.6" de mi labtop con 4 días de tiempo, gestionar muy bien el tiempo.
+2. Tres semanas como Web Developer y primera toma de contacto con VScode y HTML/CSS/JS en vida.
 
 ## Grande Error
 
