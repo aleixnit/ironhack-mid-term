@@ -121,22 +121,28 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [ ] 9.00h AM: Ningún objetivo del lunes cumplido, empezamos de 0, revisando lo que se espera del midterm y los conceptos que hemos de trabajar. Organizo el trabajo a realizar con un boceto a mano de los pasos a seguir. Coffee time y manos a la obra!
 - [ ] 11.30h AM: Empiezo el esqueleto de la estructura y textos del index.html (unos 30min)
-- [ ] 12.13h AM: Añado links vacíos e imágenes en el index.html
-- [ ] 13.15h AM: Termino la estructura del body del html. Con links vacíos e imágenes.
+- [ ] 12.13h AM: Añado links vacíos e imágenes en el index.html (10min)
+- [ ] 13.15h AM: Termino la estructura del body del html.(1h)
+- [ ] 14.45h AM: Empiezo con el CSS del index.html
+- [ ] 
+
+
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
+- [ ] Terminar el CSS de la pagina index.html
+- [ ] Montar la página de project.html y contact-us.html
+- [ ] Hacer las mediaquerys de index.html
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
+- [ ] Terminar el CSS de todas las páginas.
+- [ ] En este punto debería tener ya una versión básica.
+- [ ] Agregar approaches de la versión avanzada.
 
 #### Day Five
 

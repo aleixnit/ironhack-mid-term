@@ -8,12 +8,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f2f4fc
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
+h1 {
+  font-size: 60px;
+  color: #292e47;
+}
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
@@ -30,14 +36,148 @@ body {
 /* ------------------------------ Navbar ------------------------------ */
 
 /* Your CSS code goes here */
+.container-nav-bar {
+  /* outline: solid 1px red; */
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container-nav-bar:first-child {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.menu ul:first-child {
+  color: #0082f3;
+}
+
+.menu ul li {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 17px;
+  color: #6b708d;
+  font-weight: 500;
+}
+
+.menu ul li a:visited {
+  color: #6b708d;
+}
+
+.menu ul li a:hover {
+  color: #0082f3;
+}
+
+.contacto a {
+  background-color: #072ac8;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 15px 20px;
+  margin-right: 200px;
+}
+
+.contacto:hover {
+  color: #292e47;
+}
+
+
 
 /* ------------------------------ Header ------------------------------ */
+.container-main {
+  /* background-color: #0082f3; */
+  width: 100%;
+  height: 600px;
+  display:flex;
+  justify-content: space-between;
+}
 
-/* Your CSS code goes here */
+.container-text {
+  /* background-color: #6b708d; */
+  width: 50%;
+  height: 600px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.container-text>div>p {
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: #6b708d;
+}
+
+.container-text h1 {
+  font-size: 60px;
+  color: #292e47;
+  margin-top: 40px;
+}
+
+.boton-get {
+  background-color: #072ac8;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 15px 20px;
+  margin-left: 20px;
+}
+
+.container-imagenes {
+  background-image: url(../images/hero-section/hero-image.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 600px;
+  margin-right: 200px;
+  position: relative;
+}
+
+.card1 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: transparent;
+  left: -80px;
+  top: 0px;
+}
+
+.card2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: transparent;
+  right: -120px;
+  bottom: -150px;
+}
 
 /* ------------------------------ Partners ------------------------------ */
 
-/* Your CSS code goes here */
+.clients {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.img-client {
+  margin: 0 auto;
+  filter: grayscale(1);
+}
+
+.img-client:hover {
+  filter: grayscale(0);
+}
 
 /* ------------------------------ Recent projects ------------------------------ */
 

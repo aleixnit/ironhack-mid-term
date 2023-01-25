@@ -12,43 +12,66 @@
 
 <body>
   <!-- SECCIÓN NAV (menú)-->
-  <div>
-    <nav>
-      <div>
-        <img src="./resources/images/logos/circle.svg" alt="logoCircle">
-      </div>
-      <div>
-        <ul>
-          <li><a href="#index.html">Home</a></li>
-          <li><a href="#proyectos">Projects</a></li>
-          <li><a href="#servicios">Services</a></li>
-        </ul>
-      </div>
-      <div>
-        <a href="#formulario">Contact Us</a>
-      </div>
-    </nav>
-  </div>
-  <!-- Main section / Introducción proyecto-->
-  <main>
+  <nav class="container-nav-bar">
     <div>
-      <h1>Empower Your Business With Stunning Design!</h1>
-      <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.
-      </p>
-      <div>
-        <a href="#proyectos"> See our work </a>
-        <a href="#index.html"> Get in touch </a>
-      </div>
+      <img src="./resources/images/logos/circle.svg" alt="Logo Circle">
     </div>
-    <div>IMAGENES DEL MAIN</div>
-  </main>
-  <!-- Sección scroll de logos interactivo-->
-  <section>
-    IMAGENES DE LOS LOGOS
-    <a href="#adidas"> <img src="" alt="adidasLogo"> </a>
+    <div class="menu">
+      <ul>
+        <li><a href="#index.html">Home</a></li>
+        <li><a href="#proyectos">Projects</a></li>
+        <li><a href="#servicios">Services</a></li>
+      </ul>
+    </div>
+    <div class="contacto">
+      <a href="./contact-us.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- Main section / Introducción proyecto-->
+
+  <section class="container-main">
+    <div class="container-text">
+      <div>
+        <h1>Empower Your <br> Business With <br> Stunning Design!</h1>
+        <p>Circle is a digital design and development studio. <br> We design and develop astonishing websites <br> and
+          mobile apps.
+        </p>
+        <div class="main-buttons">
+          <a href=""> See our work </a>
+          <a class="boton-get" href=""> Get in touch </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="container-imagenes">
+      <div>
+        <img class="card1" src="./resources/images/hero-section/card-1.png" alt="Tarjeta de crédito"></div>
+      <div>
+        <img class="card2" src="./resources/images/hero-section/card-2.png" alt="Pagos con tarjeta"></div>
+    </div>
   </section>
+
+  <!-- Sección scroll de logos interactivo-->
+  <section class="clients">
+    <a href="https://www.fedex.com" target="_blank">
+      <img class="img-client" src="./resources/images/logos/fedex-logo.svg" alt="FedEx Logo"> </a>
+    <a href="https://www.amazon.com" target="_blank">
+      <img class="img-client" src="./resources/images/logos/amazon-logo.svg" alt="Amazon Logo"> </a>
+    <!-- <a href="https://www.nike.com/españa" target="_blank">
+      <img class="img-client nike" src="./resources/images/logos/Logo_NIKE.svg" alt="Nike Logo"> </a>
+    <a href="https://www.adidas.es" target="_blank">
+      <img class="img-client adidas" src="./resources/images/logos/Adidas_Logo.svg" alt="Adidas Logo"> </a> -->
+    <a href="https://www.airbnb.com" target="_blank">
+      <img class="img-client" src="./resources/images/logos/airbnb-logo.svg" alt="AirBnb Logo"> </a>
+    <a href="https://www.google.com" target="_blank">
+      <img class="img-client" src="./resources/images/logos/google-logo.svg" alt="Google Logo"> </a>
+    <a href="https://www.microsoft.com" target="_blank">
+      <img class="img-client" src="./resources/images/logos/microsoft-logo.svg" alt="Microsoft Logo"> </a>
+  </section>
+
   <!-- Sección recent projects con el JSON-->
-  <section class="proyectos">
+  <section id="proyectos">
     <div>
       <h2>Recent projects</h2>
       <div>
@@ -58,41 +81,45 @@
       </div>
     </div>
   </section>
+
+
   <!-- Sección background azul con los emojis-->
   <section>
     <div>
       <h3>Hear What Our Clients Have to Say</h3>
       <p> "Circle helped us through every stage of our startup. We really enjoyed working with you."</p>
-      <img src="" alt="fotoPerfil">
+      <img src="./resources/images/testimonial-section/profile.png" alt="fotoPerfil">
       <div>
         <p>Kristin Watson</p>
         <p> <a href="https://booking.com">Booking.com</a></p>
       </div>
-      <img src="" alt="icono1">
-      <img src="" alt="icono2">
-      <img src="" alt="icono3">
-      <img src="" alt="icono4">
+      <img src="./resources/images/testimonial-section/memoji-1.png" alt="icono1">
+      <img src="./resources/images/testimonial-section/memoji-2.png" alt="icono2">
+      <img src="./resources/images/testimonial-section/memoji-3.png" alt="icono3">
+      <img src="./resources/images/testimonial-section/memoji-4.png" alt="icono4">
     </div>
   </section>
+
+
   <!-- Sección de las box de los servicios-->
-  <section>
+  <section id="servicios">
     <div>
       <h2>Our services</h2>
       <div>
         <div>
-          <img src="" alt="User Interface Foto">
+          <img src="./resources/images/services-section/icons/1.svg" alt="User Interface Foto">
           <h4>User Interface Design</h4>
           <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
           <a href="#nada">Learn More</a>
         </div>
         <div>
-          <img src="" alt="User Experience Foto">
+          <img src="./resources/images/services-section/icons/2.svg" alt="User Experience Foto">
           <h4>User Experience Design</h4>
           <p>Circle always focuses on delivering the best user experience to your customers.</p>
           <a href="#nada">Learn More</a>
         </div>
         <div>
-          <img src="" alt="Appdevelopment Foto">
+          <img src="./resources/images/services-section/icons/3.svg" alt="Appdevelopment Foto">
           <h4>Application Development</h4>
           <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
           <a href="#nada">Learn More</a>
@@ -100,6 +127,8 @@
       </div>
     </div>
   </section>
+
+
   <!-- Background para suscribirse a la newsletter-->
   <section>
     <div>
@@ -111,11 +140,13 @@
       </div>
     </div>
   </section>
+
+
   <!-- FOOTER CON LOS ENLACES Y EL LOGO // AÑADIR FACIL EL SCROLL TO TOP-->
   <footer>
     <div>
       <div>
-        <img src="" alt="Logo Circle">
+        <img src="./resources/images/logos/circle.svg" alt="Logo Circle">
         <p>2972 Westheimer Rd. Santa Ana,
           Illinois 85486</p>
       </div>
@@ -130,8 +161,20 @@
         </ul>
       </div>
     </div>
+
+
+    <div>
+      SCROLL TO TOP
+    </div>
+
+
   </footer>
-  <script></script>
+
+  <script>
+// <!-- AÑADIR EL ARCHIVO JS-->
+  </script>
+
+
 </body>
 
 </html>
