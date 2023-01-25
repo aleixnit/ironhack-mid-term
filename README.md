@@ -103,41 +103,43 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
 
 #### Day One
-
 ###### Lunes 23, Enero 2023
+
+- Objetivo 1st Day: Empezar cuanto antes con el proyecto básico para ver hasta donde podemos llegar del avanzado.
 
 - [ ] Modificar y estructurar el Readme poco a poco.
 - [ ] Segmentar las secciones de cada página html
 - [ ] Planificar día unas tareas en función del orden y el tiempo de ejecución
 - [ ] Empezar a codificar INDEX PAGE, PROJECT PAGE y CONTACT US PAGE.
 
+Sensaciones 1st Day: Buen rollito en zoom y slack, 0 trabajo hecho. Motivación a tope.
 
 #### Day Two
-
-
 ###### Martes 24, Enero 2023
 
 - Objetivo del día: Empezar el esqueleto del índex.html y empezar/terminar el CSS. Voy a centrarme en la página de index antes de abordar cualquier otra, haciendo el HTML y estilando con CSS para dejar la index prácticamente 100% terminada y luego, montar las otras páginas.
 
 - [ ] 9.00h AM: Ningún objetivo del lunes cumplido, empezamos de 0, revisando lo que se espera del midterm y los conceptos que hemos de trabajar. Organizo el trabajo a realizar con un boceto a mano de los pasos a seguir. Coffee time y manos a la obra!
-- [ ] 11.30h AM: Empiezo el esqueleto de la estructura y textos del index.html (unos 30min)
-- [ ] 12.13h AM: Añado links vacíos e imágenes en el index.html (10min)
-- [ ] 13.15h AM: Termino la estructura del body del html.(1h)
-- [ ] 14.45h AM: Empiezo con el CSS del index.html
-- [ ] 
+- [x] 11.00h / 12.15h: Empiezo el esqueleto de la estructura y textos del index.html
+- [x] 12.15h / 13.15h: Añado links vacíos e imágenes en el index.html
+- [x] 13.15h / 14:45h: Termino la estructura del index.html y estructura html del contact us.
+- [x] 14.45h: BREAK
+- [x] 16.00h: Empiezo con el CSS del index.html
+- [x] 16.00h / 18:00h: Termino navbar y sección partners
+- [x] 18.00h / 22:30h: BREAK
+- [x] 22.30h / 00:00h: Procedo a solucionar los problemas de CSS que tengo con la "hero" section y a terminarlo.
 
-
+Sensaciones del día: Mucho estrés al principio, atascado con las imagenes de la hero section. He llegado a pensar que no valgo para esto y que no iba a terminar ni la index page en los 4 días. Alfinal, muy orgulloso, he podido con ello y además, satisfecho con el resultado. Un día productivo. Avanzamos a machete y a ritmo de tortuga a por las demás secciones de la index.html. Por un momento había caído! Pero seguimos motivados!
 
 #### Day Three
-
 ###### Miercoles 25, Enero 2023
 
-- [ ] Terminar el CSS de la pagina index.html
-- [ ] Montar la página de project.html y contact-us.html
-- [ ] Hacer las mediaquerys de index.html
+- [x] 00.00h / 01:30h: Tras problemas, termino el CSS de la hero section, muy quisquillosamente cuidada a mi manera.
+- [x] 01:30 / 03:30h: Estilo y preparo la "recent projects". Termino de estilar la sección del perfil de Kristin Watson.
+- [x] 03:30h / 4.00h: Preparo la sección de la newsletter.
+- [x] 4.00h / 9.00h: BREAK
 
 #### Day Four
-
 ###### Jueves 26, Enero 2023
 
 - [ ] Terminar el CSS de todas las páginas.
@@ -145,7 +147,6 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [ ] Agregar approaches de la versión avanzada.
 
 #### Day Five
-
 ###### Viernes 27, Enero 2023
 
 - [ ] Tarea no completada
@@ -213,6 +214,7 @@ En resumen, la sección "desafío técnico" es una excelente manera de brindar a
 <!-- MI SECCIÓN DE DESAFÍOS TÉCNICOS, BORRAR LO D ARRIBA ALFINAL-->
 1. Primer desafío: hacer el proyecto con solo una pantalla de 15.6" de mi labtop con 4 días de tiempo, gestionar muy bien el tiempo.
 2. Tres semanas como Web Developer y primera toma de contacto con VScode y HTML/CSS/JS en vida.
+3. Martes 25/01 a las 2.00h de la madrugada: He perdido varias horas  con problemas a la hora de poner las tarjetas de crédito donde les toca ir.
 
 ## Grande Error
 

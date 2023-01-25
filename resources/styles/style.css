@@ -16,8 +16,8 @@ body {
   font-size: 14px;
 }
 
-h1 {
-  font-size: 60px;
+h2 {
+  font-size: 40px;
   color: #292e47;
 }
 
@@ -166,8 +166,8 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 100px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 180px;
 }
 
 .img-client {
@@ -181,19 +181,151 @@ h1 {
 
 /* ------------------------------ Recent projects ------------------------------ */
 
-/* Your CSS code goes here */
+.container-projects {
+  height: 450px;
+  margin-left: 230px;
+  margin-bottom: 50px;
+  margin-right: 230px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
 
+.container-projects-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.project-box1, 
+.project-box2,
+.project-box3 {
+  width: 350px;
+  height: 300px;
+  border: solid 1px red;
+}
 /* ------------------------------ Client reviews ------------------------------ */
+.testimonial {
+  position: relative;
+  background-color: #292e47;
+  background-image: url("../images/testimonial-section/orbit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 120px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-/* Your CSS code goes here */
+.testimonial h2 {
+  color: #ecf7ff;
+  background: transparent;
+}
+
+.testimonial p {
+  color:  #ffc600;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  background: transparent;
+}
+
+.container-perfil {
+  width: 230px;
+  margin-bottom: 100px;
+  display: flex;
+  background: transparent;
+}
+
+.container-perfil img {
+  width: 50px;
+  height:50px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.container-perfil h4 {
+  color: #7cc2ff;
+  font-weight: 400;
+  font-size: 18px;
+  background: transparent;
+}
+
+.container-perfil a {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  background: transparent;
+}
+
+.container-perfil div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: transparent;
+}
+
+.emoji1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 100px;
+  top: 40px;
+  right: auto;
+  bottom: auto;
+  background: transparent;
+}
+.emoji2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 100px;
+  top: 40px;
+  left: auto;
+  bottom: auto;
+  background: transparent;
+}
+.emoji3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 100px;
+  bottom: 40px;
+  right: auto;
+  top: auto;
+  background: transparent;
+}
+.emoji4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 100px;
+  bottom: 40px;
+  background: transparent;
+}
 
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
+
 
 /* ------------------------------ Questions form ------------------------------ */
 
-/* Your CSS code goes here */
+.questions {
+  height: 600px;
+  background-color: #ffc600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
 
 /* ------------------------------ Footer ------------------------------ */
 
@@ -212,8 +344,6 @@ h1 {
 /* ----------------------------------------------------------------------------- */
 
 /* ------------------------------ Form ------------------------------ */
-
-/* Your CSS code goes here */
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
