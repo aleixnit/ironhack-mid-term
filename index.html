@@ -18,7 +18,7 @@
     </div>
     <div class="menu">
       <ul>
-        <li><a href="#index.html">Home</a></li>
+        <li><a class="home-boton" href="#index.html">Home</a></li>
         <li><a href="#proyectos">Projects</a></li>
         <li><a href="#servicios">Services</a></li>
       </ul>
@@ -37,8 +37,8 @@
         <p>Circle is a digital design and development studio. <br> We design and develop astonishing websites <br> and
           mobile apps.
         </p>
-        <div class="main-buttons">
-          <a href=""> See our work </a>
+        <div class="botones">
+          <a class="boton-work" href=""> See our work </a>
           <a class="boton-get" href=""> Get in touch </a>
         </div>
       </div>
@@ -46,9 +46,11 @@
     </div>
     <div class="container-imagenes">
       <div>
-        <img class="card1" src="./resources/images/hero-section/card-1.png" alt="Tarjeta de crédito"></div>
+        <img class="card1" src="./resources/images/hero-section/card-1.png" alt="Tarjeta de crédito">
+      </div>
       <div>
-        <img class="card2" src="./resources/images/hero-section/card-2.png" alt="Pagos con tarjeta"></div>
+        <img class="card2" src="./resources/images/hero-section/card-2.png" alt="Pagos con tarjeta">
+      </div>
     </div>
   </section>
 
@@ -72,11 +74,23 @@
 
   <!-- Sección recent projects con el JSON-->
   <section class="container-projects">
-      <h2>Recent projects</h2>
-      <div class="container-projects-2">
-        <div class="project-box1">Project 1</div>
-        <div class="project-box2">Project 2</div>
-        <div class="project-box3">Project 3</div></div>
+    <h2>Recent projects</h2>
+    <div class="container-projects-2">
+      <div class="project-box1"><img class="p-box" src="./resources/images/projects-section/1.jpg" alt="Project Foto 1">
+        <h3>Simplify</h3>
+        <p>UI Design & App Development</p> <a href="">Learn More</a>
+      </div>
+
+      <div class="project-box2"><img class="p-box" src="./resources/images/projects-section/2.jpg" alt="Project Foto 1">
+        <h3>Dashcoin</h3>
+        <p>UI Design & App Development</p> <a href="">Learn More</a>
+      </div>
+
+      <div class="project-box3"><img class="p-box" src="./resources/images/projects-section/3.jpg" alt="Project Foto 1">
+        <h3>Vectorify</h3>
+        <p>UI Design & App Development</p> <a href="">Learn More</a>
+      </div>
+    </div>
   </section>
 
   <!-- PRUEBA-->
@@ -89,42 +103,39 @@
       enjoyed working with you."
     </p>
     <div class="container-perfil">
-      <img
-        src="./resources/images/testimonial-section/profile.png"
-        alt="Kristin Watson picture"
-      />
+      <img src="./resources/images/testimonial-section/profile.png" alt="Kristin Watson picture" />
       <div>
         <h4>Kristin Watson</h4>
         <a href="https://booking.com">Booking.com</a>
       </div>
     </div>
-    <img src="./resources/images/testimonial-section/memoji-1.png" alt="" class="emoji1"/>
-    <img src="./resources/images/testimonial-section/memoji-2.png" alt="" class="emoji2"/>
-    <img src="./resources/images/testimonial-section/memoji-3.png" alt=""  class="emoji3"/>
-    <img src="./resources/images/testimonial-section/memoji-4.png" alt="" class="emoji4"/>
+    <img src="./resources/images/testimonial-section/memoji-1.png" alt="" class="emoji1" />
+    <img src="./resources/images/testimonial-section/memoji-2.png" alt="" class="emoji2" />
+    <img src="./resources/images/testimonial-section/memoji-3.png" alt="" class="emoji3" />
+    <img src="./resources/images/testimonial-section/memoji-4.png" alt="" class="emoji4" />
   </section>
 
   <!-- Sección background azul con los emojis-->
-  
+
 
   <!-- Sección de las box de los servicios-->
   <section id="servicios">
     <div>
       <h2>Our services</h2>
-      <div>
-        <div>
+      <div class="container-services">
+        <div class="box-services-1">
           <img src="./resources/images/services-section/icons/1.svg" alt="User Interface Foto">
           <h4>User Interface Design</h4>
           <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
           <a href="#nada">Learn More</a>
         </div>
-        <div>
+        <div class="box-services-2">
           <img src="./resources/images/services-section/icons/2.svg" alt="User Experience Foto">
           <h4>User Experience Design</h4>
           <p>Circle always focuses on delivering the best user experience to your customers.</p>
           <a href="#nada">Learn More</a>
         </div>
-        <div>
+        <div class="box-services-3">
           <img src="./resources/images/services-section/icons/3.svg" alt="Appdevelopment Foto">
           <h4>Application Development</h4>
           <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
@@ -167,12 +178,6 @@
         </ul>
       </div>
     </div>
-
-
-    <div>
-      SCROLL TO TOP
-    </div>
-
 
   </footer>
 

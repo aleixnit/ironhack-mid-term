@@ -137,7 +137,7 @@ Sensaciones del día: Mucho estrés al principio, atascado con las imagenes de l
 - [x] 00.00h / 01:30h: Tras problemas, termino el CSS de la hero section, muy quisquillosamente cuidada a mi manera.
 - [x] 01:30 / 03:30h: Estilo y preparo la "recent projects". Termino de estilar la sección del perfil de Kristin Watson.
 - [x] 03:30h / 4.00h: Preparo la sección de la newsletter.
-- [x] 4.00h / 9.00h: BREAK
+- [x] 4.00h / 9.45h: BREAK
 
 #### Day Four
 ###### Jueves 26, Enero 2023
