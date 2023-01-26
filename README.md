@@ -215,7 +215,7 @@ En resumen, la sección "desafío técnico" es una excelente manera de brindar a
 1. Primer desafío: hacer el proyecto con solo una pantalla de 15.6" de mi labtop con 4 días de tiempo, gestionar muy bien el tiempo.
 2. Tres semanas como Web Developer y primera toma de contacto con VScode y HTML/CSS/JS en vida.
 3. Martes 25/01 a las 2.00h de la madrugada: He perdido varias horas  con problemas a la hora de poner las tarjetas de crédito donde les toca ir.
-
+Empezar la pagina web usando medidas absolutas como px en todo, y luego al hacer las media querys darme cuentablalal
 ## Grande Error
 
 La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
