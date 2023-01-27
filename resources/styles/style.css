@@ -35,7 +35,7 @@ body {
 /* --------- Navbar ------------------------------ */
 
 .container-nav-bar:first-child {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,12 +44,12 @@ body {
 }
 
 .container-nav-bar img {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   margin-left: 15vw;
 }
 
 .menu ul li {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   display: inline;
   list-style: none;
   font-size: 1.1vw;
@@ -70,8 +70,23 @@ body {
   color: #0082f3;
 }
 
+.burguer-menu {
+  display: none;
+  
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #292e47;;
+}
+
 .contacto a {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   background-color: #072ac8;
   color: white;
   text-decoration: none;
@@ -86,14 +101,14 @@ body {
 
 /* ------------------------------ Header ------------------------------ */
 .container-main {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   display: flex;
   justify-content: space-between;
   height: 80vh;
 }
 
 .container-text {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   width: 50%;
   display: flex;
   /* justify-content: space-evenly; */
@@ -102,7 +117,7 @@ body {
 }
 
 .container-imagenes {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   background-image: url(../images/hero-section/hero-image.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -121,7 +136,7 @@ body {
 }
 
 .container-text h1 {
-  font-size: 4vw;
+  font-size: 3.7vw;
   color: #292e47;
   margin-top: 40px;
   letter-spacing: 3px;
@@ -173,7 +188,7 @@ body {
 /* ------------------------------ Partners ------------------------------ */
 
 .clients {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,7 +222,7 @@ body {
 /* ------------------------------ Recent projects ------------------------------ */
 
 .container-projects {
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
   /* height: 600px; */
   margin-left: 15vw;
   /* margin-bottom: 50px; */
@@ -269,7 +284,7 @@ body {
   -moz-box-shadow: 10px 10px 91px -50px rgba(107, 107, 107, 1);
   box-shadow: 10px 10px 91px -50px rgba(107, 107, 107, 1);
 
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
 }
 
 .p-box {
@@ -306,14 +321,12 @@ body {
   font-size: 25px;
   font-weight: 500;
   line-height: 40px;
-  background: transparent;
 }
 
 .container-perfil {
   width: 230px;
   margin-bottom: 100px;
   display: flex;
-  background: transparent;
 }
 
 .container-perfil img {
@@ -327,14 +340,12 @@ body {
   color: #7cc2ff;
   font-weight: 400;
   font-size: 18px;
-  background: transparent;
 }
 
 .container-perfil a {
   color: white;
   font-weight: 400;
   text-decoration: none;
-  background: transparent;
 }
 
 .container-perfil div {
@@ -342,7 +353,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: transparent;
 }
 
 .emoji1 {
@@ -353,7 +363,6 @@ body {
   top: 40px;
   right: auto;
   bottom: auto;
-  background: transparent;
 }
 
 .emoji2 {
@@ -375,7 +384,6 @@ body {
   bottom: 40px;
   right: auto;
   top: auto;
-  background: transparent;
 }
 
 .emoji4 {
@@ -384,7 +392,6 @@ body {
   height: 150px;
   right: 100px;
   bottom: 40px;
-  background: transparent;
 }
 
 /* ------------------------------ Services ------------------------------ */
@@ -473,8 +480,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 5vw;
+  margin-left: 5vw;
   gap: 30px;
 }
 
@@ -584,7 +591,8 @@ body {
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
 label {
-  color: #6b708d
+  color: #6b708d;
+  margin-bottom: 85px;
 }
 
 input {
@@ -592,8 +600,8 @@ input {
 }
 
 #form {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 #form h2 {
@@ -654,6 +662,7 @@ input {
   color: white;
   font-weight: normal;
   margin-top: 60px;
+  border: none;
 }
 
 .form-boton:hover {
@@ -692,7 +701,7 @@ input {
   }
 
   .container-nav-bar img {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     margin-left: 5vw;
   }
 
@@ -701,12 +710,7 @@ input {
   }
 
   .contacto a {
-    background-color: #072ac8;
-    color: white;
-    text-decoration: none;
-    font-size: 2vw;
-    padding: 1vw 2.3vw;
-    margin-right: 5vw;
+   display: none;
   }
 
   .contacto a:hover {
@@ -715,7 +719,7 @@ input {
 
   /* HERO SECTION ***********************/
   .container-main {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     display: flex;
     flex-direction: column;
     height: 140vw;
@@ -724,7 +728,7 @@ input {
   }
 
   .container-text {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     width: 90%;
     /* height: 45%; */
     display: flex;
@@ -736,7 +740,7 @@ input {
   }
 
   .container-imagenes {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     background-image: url(../images/hero-section/hero-image.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -755,7 +759,7 @@ input {
     margin-top: 3vh;
     margin-bottom: 3vh;
     color: #6b708d;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
   }
 
   .container-text h1 {
@@ -764,11 +768,11 @@ input {
     display: flex;
     justify-content: center;
     text-align: center;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
   }
 
   .botones {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -786,7 +790,7 @@ input {
   }
 
   .boton-work {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     display: flex;
     align-items: center;
   }
@@ -813,7 +817,7 @@ input {
 
   /* LOGOS SECTION************************ */
   .clients {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -843,7 +847,7 @@ input {
   /* PROJECTS SECTION************************ */
 
   .container-projects {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     margin-left: 5vw;
     margin-right: 5vw;
     display: flex;
@@ -900,7 +904,7 @@ input {
     -webkit-box-shadow: 10px 10px 91px -50px rgba(107, 107, 107, 1);
     -moz-box-shadow: 10px 10px 91px -50px rgba(107, 107, 107, 1);
     box-shadow: 10px 10px 91px -50px rgba(107, 107, 107, 1);
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
   }
 
   .p-box {
@@ -1006,7 +1010,7 @@ input {
   }
   
   .container-services {
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -1096,7 +1100,7 @@ input {
     text-align: center;
     width: 100%;
     outline: none;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
 
   }
   .questions h2{
@@ -1117,7 +1121,7 @@ input {
     padding-left: 0;
     padding-right: 60px;
     font-size: 21px;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
 
   }
   
@@ -1147,6 +1151,190 @@ input {
     background-color: #292e47;
   }
 
+  /* --------- hamburguer  ------------------------------ */
+
+ 
+  .container {
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* .burguer-menu {
+    width: 100%;  
+  }
+   */
+  /* .menu-items > li {
+    background-color: grey;
+    width: 100%;
+    padding: 20px 0;
+  } */
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    
+   }
+  
+  .burguer-menu  {
+    display: flex;
+  }
+
+  .menu-items {
+    display: flex;
+    
+  }
+  
+  .burguer-menu .nav-container li {
+    list-style: none;
+  }
+  
+  .burguer-menu .nav-container a {
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+  /*   padding: 0.7rem; */
+  }
+  
+  .burguer-menu .nav-container a:hover{
+      font-weight: bolder;
+  }
+  
+  .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+  }
+  
+  .nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0e2431;
+  }
+  
+  .nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+   .menu-items {
+    padding: 20px;
+  /*   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
+    background-color: grey; 
+  /*   height: 100vh; */
+    width: 100%;
+    transform: translateY(-150%);
+    display: flex;
+    flex-direction: column;
+  /*   margin-left: -40px; */
+  /*   padding-left: 50px; */
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+     
+  }
+  
+  .burguer-menu .menu-items li {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateY(70px);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+  }
+
+/*   
+  .hamburguerMenu {
+    display: block;
+   }
+  .hamburguerMenu.active.bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  .hamburguerMenu.active.bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburguerMenu.bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .menuList {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #c8c8c8;
+    width: 100%;
+    text-align: left;
+    transition: 0.3s;
+   }
+  
+   .menuList li {
+    margin: 16px 0;
+   }
+  
+  .menuList.active {
+    left: 0;
+  } */
+  
   /*****footer*****************/
   .container-footer {
     height: 400px;
