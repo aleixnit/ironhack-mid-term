@@ -77,7 +77,7 @@ body {
 
 .bar {
   display: block;
-  width: 25px;
+  /* width: 25px; */
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1160,19 +1160,10 @@ input {
     margin: auto;
   }
   
-  /* .burguer-menu {
-    width: 100%;  
-  }
-   */
-  /* .menu-items > li {
-    background-color: grey;
-    width: 100%;
-    padding: 20px 0;
-  } */
   .nav-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     height: 62px;
     
    }
@@ -1188,11 +1179,13 @@ input {
   
   .burguer-menu .nav-container li {
     list-style: none;
+    display: flex;
+    justify-content: left;
   }
   
   .burguer-menu .nav-container a {
     text-decoration: none;
-    color: red;
+    color:#ecf7ff;
     font-weight: 500;
     font-size: 1.2rem;
     
@@ -1231,6 +1224,7 @@ input {
     z-index: 2;
     display: flex;
     flex-direction: column;
+    align-items: right;
     justify-content: space-between;
   }
   
@@ -1261,7 +1255,7 @@ input {
   /*   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
     background-color: grey; 
   /*   height: 100vh; */
-    width: 100%;
+    width: 70vw;
     transform: translateY(-150%);
     display: flex;
     flex-direction: column;
@@ -1298,42 +1292,6 @@ input {
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
-
-/*   
-  .hamburguerMenu {
-    display: block;
-   }
-  .hamburguerMenu.active.bar:nth-child(2){
-    opacity: 0;
-  }
-  
-  .hamburguerMenu.active.bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .hamburguerMenu.bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  
-  .menuList {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: #c8c8c8;
-    width: 100%;
-    text-align: left;
-    transition: 0.3s;
-   }
-  
-   .menuList li {
-    margin: 16px 0;
-   }
-  
-  .menuList.active {
-    left: 0;
-  } */
   
   /*****footer*****************/
   .container-footer {
